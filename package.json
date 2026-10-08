@@ -1,0 +1,22 @@
+{
+  "name": "kgf-app-service-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Status page proving the KGF app service is running inside a container",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.3"
+  }
+}
